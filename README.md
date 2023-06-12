@@ -1,1 +1,1 @@
-Eeste repositorio contiene los proyectos en os que he trabajado y muestra mi avance en el mundo de la programación, puedes acceder a él dando click aca: [My blog](https://juanserodriguez29.github.io){:target="_blank" rel="noopener"}
+Eeste repositorio contiene los proyectos en os que he trabajado y muestra mi avance en el mundo de la programación, puedes acceder a él dando click aca: [My blog](https://juanserodriguez29.github.io)
