@@ -5,27 +5,27 @@ import Link from "next/link";
 
 const text = [
   {
-    title: "E-commerce productos agrícolas",
+    title: "E-commerce agricultural products",
     description:
-      "Este es mi primer proyecto. Full stack de una página donde podrás publicar y adquirir productos agrícolas.",
+      "This is my first project. Full stack of a website where you can publish and buy agricultural products.",
     link: "https://github.com/juanserodriguez29/Grupo4",
   },
   {
-    title: "Calculadora básica",
+    title: "Basic calculator",
     description:
-      "Este es mi segundo proyecto. Contiene funciones básicas como: suma, resta, multiplicación y división.",
+      "This is my second project. It contains basic functions such as: addition, subtraction, multiplication and division.",
     link: "https://github.com/juanserodriguez29/Math_Calculator",
   },
   {
-    title: "Ataque de monstruo",
+    title: "Monster attack",
     description:
-      "Juego que simula una lucha entre el jugador y un monstruo, puedes ver los registros de los ataques en la consola.",
+      "Game that simulates a fight between the player and a monster, you can see the records of the attacks on the console.",
     link: "https://github.com/juanserodriguez29/Monster_killer",
   },
   {
-    title: "Mis películas favoritas",
+    title: "My favorite films",
     description:
-      "Podrás agregar un título, una imagen y darle una calificación a tus películas favoritas, todo en un solo lugar.",
+      "You will be able to add a title, an image and give a rating to your favorite movies, all in one place.",
     link: "https://github.com/juanserodriguez29/Rating_movies",
   },
 ];
@@ -72,7 +72,7 @@ function ProjectText() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Ver más
+                See more on GitHub
               </a>
             </p>
           </>

@@ -51,14 +51,14 @@ export default function about() {
             </Link>
           </div>
           <p>
-            My name is Sebastián, if you are here I suppose you have been
+            My name is Sebastián, if you are here i suppose you have been
             interested in some of my projects or simply to know a little more
             about who is the author of this Blog.
             <br></br>
-            <br></br>I am an environmental engineer, I love the world of
-            programming and I have taken some Python, Javascript and VBA
-            courses, I love soccer and my challenge is to start developing my
-            professional future in the area of programming.
+            <br></br>I am an environmental engineer, i love the world of
+            programming and i have taken some Javascript, React and VBA
+            courses, i love soccer and my challenge is to start developing my
+            professional future in the tech area.
             <br></br>
             <br></br>
             If you have any questions, my social networks appear at the top so
