@@ -1,1 +1,5 @@
-Eeste repositorio contiene los proyectos en los que he trabajado y muestra mi avance en el mundo de la programación, puedes acceder a él dando click aca (usa Ctrl + Click para abrir en pestaña nueva): [My blog](https://juanserodriguez29.github.io)
+<h1 align="center"> Projects <span style="background: linear-gradient(90deg, #f9572a, #ff8a05)" >page</span> </h1>
+
+This repository contains the projects I have worked on and shows my progress in the programming world, you can access it by clicking here (use Ctrl + Click to open in new tab)
+
+[My projects page](https://juanserodriguez29.vercel.app/)
