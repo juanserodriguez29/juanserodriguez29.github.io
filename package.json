@@ -6,13 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "deploy": "next build && next export && gh-pages -d out -b gh-pages -t true"
+    "lint": "next lint"
   },
   "dependencies": {
+    "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.4"
+    "sharp": "^0.33.1"
   },
   "devDependencies": {
     "eslint": "^8",

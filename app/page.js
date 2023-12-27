@@ -17,11 +17,13 @@ export default function Home() {
         <div>
           <Image className={classes.images}
             src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+            alt=""
             width={50}
             height={50}
           ></Image>
           <Image
             src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+            alt=""
             width={50}
             height={50}
           ></Image>

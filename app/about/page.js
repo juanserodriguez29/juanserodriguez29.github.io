@@ -17,6 +17,7 @@ export default function about() {
             <Image
               className={classes.photo}
               src={perfil}
+              alt=""
               width={270}
               height={310}
             ></Image>
@@ -27,6 +28,7 @@ export default function about() {
             <Link target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/juan-sebastian-prado-rodriguez-601834137/">
               <Image
                 src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
+                alt=""
                 width={30}
                 height={30}
               ></Image>
@@ -34,6 +36,7 @@ export default function about() {
             <Link target="_blank" rel="noopener noreferrer" href="https://github.com/juanserodriguez29">
               <Image
                 src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+                alt=""
                 width={30}
                 height={30}
               ></Image>
@@ -41,6 +44,7 @@ export default function about() {
             <Link target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/juanserodriguez29/">
               <Image
                 src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg"
+                alt=""
                 width={30}
                 height={30}
               ></Image>

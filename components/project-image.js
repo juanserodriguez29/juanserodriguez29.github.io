@@ -33,6 +33,7 @@ export default function ProjectImage() {
             <Image
               key={index}
               src={image.image}
+              alt=""
               className={index === currentImageIndex ? classes.active : ""}
             />
       ))}
