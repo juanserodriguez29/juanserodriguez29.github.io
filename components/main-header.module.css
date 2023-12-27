@@ -10,6 +10,12 @@
     padding: 2rem 10%;
   }
 }
+
+@media screen and (max-width: 700px) {
+  .header{
+    display: inline-block;
+  }
+}
   
   .hero {
     color: #ddd6cb;

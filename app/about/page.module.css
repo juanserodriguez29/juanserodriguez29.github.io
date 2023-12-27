@@ -1,9 +1,18 @@
 .section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   }
+
+  @media screen and (max-width: 700px) {
+    .section div {
+      max-width: 100%;
+    }
+    .photo {
+      margin: 0 auto; /* Centra la imagen horizontalmente en pantallas pequeñas */
+    }
+}
 
   .section div{
     width: 600px;
@@ -22,12 +31,6 @@
     position: absolute;
     border-radius: 3px;
   }
-
-.block{
-    display: flex;
-    width: 270px;
-    height: 310px;
-}
   
 .header{
     color: #ddd6cb;
@@ -48,10 +51,10 @@
 
   .block {
     position: relative;
-    margin: 300px auto 0;
     width: 500px;
     height: 250px;
     background: linear-gradient(0deg, #000, #272727);
+    margin: 0 auto;
   }
   
   .block:before, .block:after {

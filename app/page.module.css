@@ -8,6 +8,13 @@
     font-family: 'Montserrat', sans-serif;
   }
 
+  @media screen and (max-width: 700px) {
+    .principal{
+      display: inline-block;
+      font-size: 1rem;
+    }
+  }
+
   .header h1 {
     font-family: 'Montserrat', sans-serif;
   }
