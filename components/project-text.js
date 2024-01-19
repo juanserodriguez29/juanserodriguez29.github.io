@@ -11,6 +11,12 @@ const text = [
     link: "https://github.com/juanserodriguez29/Grupo4",
   },
   {
+    title: "Foodies page",
+    description:
+      "Discover new flavors and share your favorite recipes. Created with Next.js and SQLite3",
+    link: "https://github.com/juanserodriguez29/Foodies.git",
+  },
+  {
     title: "Image search",
     description:
       "Search for your favorite images of any topic. Built with React and connection with Unsplash API.",
