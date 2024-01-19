@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import vegetables from "@/assets/img/post-1.png";
-import burger from "@/assets/img/burger.png";
+import burger from "@/assets/img/burger.jpg";
 import imagesSearch from "@/assets/img/Search.jpg";
 import monster from "@/assets/img/Monster Attack.jpg";
 import cine from "@/assets/img/Cine.jpg";
