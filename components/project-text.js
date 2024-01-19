@@ -7,13 +7,13 @@ const text = [
   {
     title: "E-commerce agricultural products",
     description:
-      "This is my first project. Full stack of a website where you can publish and buy agricultural products. Built with Angular",
+      "This is my first project. Full stack of a website where you can publish and buy agricultural products. Built with Angular.",
     link: "https://github.com/juanserodriguez29/Grupo4",
   },
   {
     title: "Foodies page",
     description:
-      "Discover new flavors and share your favorite recipes. Created with Next.js and SQLite3",
+      "Discover new flavors and share your favorite recipes. Created with Next.js and SQLite3.",
     link: "https://github.com/juanserodriguez29/Foodies.git",
   },
   {
@@ -25,13 +25,13 @@ const text = [
   {
     title: "Monster attack",
     description:
-      "Game that simulates a fight between the player and a monster, you can see the records of the attacks on the console. Built with Javascript",
+      "Game that simulates a fight between the player and a monster, you can see the records of the attacks on the console. Built with Javascript.",
     link: "https://github.com/juanserodriguez29/Monster_killer",
   },
   {
     title: "My favorite films",
     description:
-      "You will be able to add a title, an image and give a rating to your favorite movies, all in one place. Built with Javascript",
+      "You will be able to add a title, an image and give a rating to your favorite movies, all in one place. Built with Javascript.",
     link: "https://github.com/juanserodriguez29/Rating_movies",
   },
 ];
