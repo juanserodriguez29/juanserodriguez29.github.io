@@ -7,25 +7,25 @@ const text = [
   {
     title: "E-commerce agricultural products",
     description:
-      "This is my first project. Full stack of a website where you can publish and buy agricultural products.",
+      "This is my first project. Full stack of a website where you can publish and buy agricultural products. Built with Angular",
     link: "https://github.com/juanserodriguez29/Grupo4",
   },
   {
-    title: "Basic calculator",
+    title: "Image search",
     description:
-      "This is my second project. It contains basic functions such as: addition, subtraction, multiplication and division.",
-    link: "https://github.com/juanserodriguez29/Math_Calculator",
+      "Search for your favorite images of any topic. Built with React and connection with Unsplash API.",
+    link: "https://github.com/juanserodriguez29/Images_search",
   },
   {
     title: "Monster attack",
     description:
-      "Game that simulates a fight between the player and a monster, you can see the records of the attacks on the console.",
+      "Game that simulates a fight between the player and a monster, you can see the records of the attacks on the console. Built with Javascript",
     link: "https://github.com/juanserodriguez29/Monster_killer",
   },
   {
     title: "My favorite films",
     description:
-      "You will be able to add a title, an image and give a rating to your favorite movies, all in one place.",
+      "You will be able to add a title, an image and give a rating to your favorite movies, all in one place. Built with Javascript",
     link: "https://github.com/juanserodriguez29/Rating_movies",
   },
 ];
