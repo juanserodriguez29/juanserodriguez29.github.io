@@ -1,5 +1,3 @@
-"use client";
-import { useState, useEffect } from "react";
 import vegetables from "@/assets/img/post-1.png";
 import burger from "@/assets/img/burger.jpg";
 import imagesSearch from "@/assets/img/Search.jpg";
@@ -16,18 +14,16 @@ const images = [
   { image: cine, description: "Mis películas favoritas" },
 ];
 
-export default function ProjectImage() {
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+export default function ProjectImage({initialIndex}) {
+  // const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentImageIndex((prevIndex) =>
-        prevIndex < images.length - 1 ? prevIndex + 1 : 0
-      );
-    }, 5000);
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setCurrentImageIndex((prevIndex) => prevIndex < images.length - 1 ? prevIndex + 1 : 0);
+  //   }, 5000);
 
-    return () => clearInterval(interval);
-  }, []);
+  //   return () => clearInterval(interval);
+  // }, []);
 
   return (
     <div className={classes.slideshow}>
@@ -36,7 +32,7 @@ export default function ProjectImage() {
               key={index}
               src={image.image}
               alt=""
-              className={index === currentImageIndex ? classes.active : ""}
+              className={index === initialIndex ? classes.active : ""}
             />
       ))}
     </div>

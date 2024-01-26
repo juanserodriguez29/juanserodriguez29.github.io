@@ -1,7 +1,7 @@
 .header{
     display: flex;
     color: #ddd6cb;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: 'Montserrat', sans-serif;
     justify-content: space-between;
 }
@@ -9,6 +9,7 @@
 .column{
   flex: 1;
   text-align: center;
+  margin-top: 50px;
 }
 
 .section{
@@ -30,6 +31,41 @@
   align-items: center;
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color:  #252525;
+}
+
+.block:hover .overlay {
+  opacity: 1;
+}
+
+.text2 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text2 a{
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
 .secondDiv {
   flex: 1;
 }
@@ -39,6 +75,25 @@
   justify-content: center;
   align-items: center;
   margin-right: 50px;
+}
+
+.linkedIn:hover, .gitHub:hover, .instagram:hover{
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
 .text{
@@ -84,7 +139,6 @@
 	position: relative;
 	width: 270px;
 	height: 310px;
-	background: linear-gradient(0deg, #000, #272727);
 }
 
 .block:before, .block:after {

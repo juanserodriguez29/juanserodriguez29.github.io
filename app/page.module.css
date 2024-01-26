@@ -1,11 +1,11 @@
 .principal {
     color: #ddd6cb;
-    font-size: 1.5rem;
     gap: 3rem;
     margin: 3rem auto 5rem auto;
     width: 90%;
     max-width: 75rem;
     font-family: 'Montserrat', sans-serif;
+    scroll-margin-top: 112px;
   }
 
   @media screen and (max-width: 700px) {
@@ -13,6 +13,14 @@
       display: inline-block;
       font-size: 1rem;
     }
+  }
+
+  .projects{
+    scroll-margin-top: 112px;
+  }
+
+  .about{
+    scroll-margin-top: 35px;
   }
 
   .header h1 {

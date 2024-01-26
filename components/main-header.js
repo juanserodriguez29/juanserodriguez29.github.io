@@ -8,17 +8,17 @@ export default function MainHeader() {
   return (
     <>
       <header className={classes.header}>
-        <Link href="/" className={classes.logo}>
+        <Link href="#principal" className={classes.logo}>
           <Image src={logoImg} alt="My blog" priority></Image>
-          Sebas P - FrontEnd Developer
+          Sebastian Prado
         </Link>
         <nav className={classes.nav}>
           <ul>
             <li>
-              <NavLink href="/projects">My Projects</NavLink>
+              <NavLink href="#projects">My Projects</NavLink>
             </li>
             <li>
-              <NavLink href="/about">About me</NavLink>
+              <NavLink href="#about">About me</NavLink>
             </li>
           </ul>
         </nav>

@@ -3,21 +3,25 @@ import classes from "./page.module.css";
 import perfil from "@/assets/img/Perfil-color.jpeg";
 import Image from "next/image";
 
-export default function about() {
+export default function About() {
   return (
     <>
       <header className={classes.header}>
         <div className={classes.column}>
           <h2>
-            He<span className={classes.highlight}>llo</span>
+            A little bit <span className={classes.highlight}>about me</span>
           </h2>
+          <br/>
+          <br/>
         </div>
-        <div className={classes.column}></div>
       </header>
       <section className={classes.section}>
         <div className={classes.firstDiv}>
           <div className={classes.block}>
             <Image className={classes.photo} src={perfil} alt="" width={270} height={310}></Image>
+            <div className={classes.overlay}>
+              <div className={classes.text2}><a href="mailto:juanserodriguez29@hotmail.com">Contact me</a></div>
+            </div>
           </div>
         </div>
         <div className={classes.secondDiv}>
@@ -29,6 +33,7 @@ export default function about() {
               href="https://www.linkedin.com/in/juan-sebastian-prado-rodriguez-601834137/"
             >
               <Image
+                className={classes.linkedIn}
                 src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
                 alt=""
                 width={30}
@@ -42,6 +47,7 @@ export default function about() {
               href="https://github.com/juanserodriguez29"
             >
               <Image
+                className={classes.gitHub}
                 src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
                 alt=""
                 width={30}
@@ -54,6 +60,7 @@ export default function about() {
               href="https://www.instagram.com/juanserodriguez29/"
             >
               <Image
+                className={classes.instagram}
                 src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg"
                 alt=""
                 width={30}

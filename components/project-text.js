@@ -1,7 +1,4 @@
-"use client";
-import { useState, useEffect } from "react";
 import classes from "./project-text.module.css";
-import Link from "next/link";
 
 const text = [
   {
@@ -38,18 +35,18 @@ const text = [
 
 export { text, ProjectText };
 
-function ProjectText() {
-  const [currentTextIndex, setCurrentTextIndex] = useState(0);
+function ProjectText({initialIndex}) {
+  // const [currentTextIndex, setCurrentTextIndex] = useState(0);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentTextIndex((prevIndex) =>
-        prevIndex < text.length - 1 ? prevIndex + 1 : 0
-      );
-    }, 5000);
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setCurrentTextIndex((prevIndex) =>
+  //       prevIndex < text.length - 1 ? prevIndex + 1 : 0
+  //     );
+  //   }, 5000);
 
-    return () => clearInterval(interval);
-  }, []);
+  //   return () => clearInterval(interval);
+  // }, []);
 
   return (
     <div className={classes.slideshow}>
@@ -57,7 +54,7 @@ function ProjectText() {
         {text.map((text, index) => (
           <h1
             key={index}
-            className={index === currentTextIndex ? classes.active : ""}
+            className={index === initialIndex ? classes.active : ""}
           >
             {text.title}
           </h1>
@@ -68,13 +65,13 @@ function ProjectText() {
           <>
             <p
               key={index}
-              className={index === currentTextIndex ? classes.active : ""}
+              className={index === initialIndex ? classes.active : ""}
             >
               {text.description}
               <br></br>
               <a
                 href={text.link}
-                className={index === currentTextIndex ? classes.active : ""}
+                className={index === initialIndex ? classes.active : ""}
                 target="_blank"
                 rel="noopener noreferrer"
               >

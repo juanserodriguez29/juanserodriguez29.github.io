@@ -3,6 +3,6 @@ const nextConfig = {};
 
 module.exports = {
   images: {
-    domains: ["upload.wikimedia.org"],
+    domains: ["upload.wikimedia.org", 'www.svgrepo.com'],
   }
 };

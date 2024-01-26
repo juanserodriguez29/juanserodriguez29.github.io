@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Montserrat:wght@400;700&display=swap');
 
+::-webkit-scrollbar {display: none;}
+
 html {
   height: 100vh;
   font-family: 'Quicksand', sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -10,4 +13,26 @@ body {
   background: linear-gradient(to top, #f58403, 2%, #2e2924);
   background-attachment: fixed;
   background-repeat: no-repeat;
+}
+
+@keyframes show{
+  from {
+    opacity: 0;
+    scale: 25%;
+  }
+
+  to{
+    opacity: 1;
+    scale: 100%;
+  }
+}
+
+section{
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+
+  animation-timeline: --image;
+  animation-name: show;
+
+  animation-range: entry 10% cover 30%;
 }

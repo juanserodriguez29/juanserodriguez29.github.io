@@ -1,17 +1,31 @@
 .section{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
 }
-.section div{
+
+.image, .text{
+  margin: 20px;
   width: 600px;
-  max-width: 80%; /* Ajusta el valor según tu preferencia */
   height: 300px;
-  margin: 0 10px; /* O ajusta el valor de los márgenes según tu preferencia */
   display: flex;
-  justify-content: center;
-  align-items: center;
+}
+
+.buttons a{
+  display: inline;
+  width: 10%;
+}
+
+.buttons a:hover{
+  cursor: pointer;
+}
+
+.rightArrow:hover, .leftArrow:hover{
+  stroke: rgb(0, 0, 0);
+  transition: 0.5s ease;
+}
+
+.firstButton{
+  margin-left: 250px;
+  margin-right: 30px;
 }
 
 @media screen and (max-width: 700px) {
@@ -29,12 +43,11 @@
 }
 
 .header{
-  color: #ddd6cb;
-    font-size: 1.5rem;
-    gap: 3rem;
+    color: #ddd6cb;
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 1.3rem;
     margin: 0% auto 2rem auto;
-    width: 90%;
-    max-width: 75rem;
     font-family: 'Montserrat', sans-serif;
 }
 
