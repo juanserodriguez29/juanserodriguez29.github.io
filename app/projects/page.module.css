@@ -1,17 +1,22 @@
 .section{
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .image, .text{
   margin: 20px;
-  width: 600px;
+  width: 550px;
   height: 300px;
+  display: grid;
+}
+
+.buttons{
   display: flex;
+  justify-content: center;
 }
 
 .buttons a{
-  display: inline;
-  width: 10%;
+  display: inline-block;
 }
 
 .buttons a:hover{
@@ -20,11 +25,10 @@
 
 .rightArrow:hover, .leftArrow:hover{
   stroke: rgb(0, 0, 0);
-  transition: 0.5s ease;
+  transition: 1s ease;
 }
 
 .firstButton{
-  margin-left: 250px;
   margin-right: 30px;
 }
 
@@ -32,13 +36,18 @@
   .section {
     display: inline-block;
   }
-}
 
-@media screen and (max-width: 700px) {
   .section div{
-    display: inline-block;
-    max-width: 95%;
-    height: 400px;
+    width: 100%;
+  }
+
+  .text{
+    height: auto;
+  }
+
+  .buttons{
+    display: flex;
+    justify-content: center;
   }
 }
 

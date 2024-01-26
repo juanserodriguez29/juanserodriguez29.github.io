@@ -120,7 +120,6 @@
 
   .firstDiv,
   .secondDiv {
-    width: 100%;
     margin-bottom: 20px;
   }
 
@@ -130,8 +129,13 @@
 
   .text {
     margin: 0 auto;
+    width: 100%;
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+  .block, .socialLinks, .column{
+    margin-left: 27px;
   }
 }
 
