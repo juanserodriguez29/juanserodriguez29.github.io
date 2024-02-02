@@ -5,31 +5,31 @@ const text = [
     title: "E-commerce agricultural products",
     description:
       "This is my first project. Full stack of a website where you can publish and buy agricultural products. Built with Angular.",
-    link: "https://github.com/juanserodriguez29/Grupo4",
+    link: "https://agricultural-market.vercel.app/",
   },
   {
     title: "Foodies page",
     description:
       "Discover new flavors and share your favorite recipes. Created with Next.js and SQLite3.",
-    link: "https://github.com/juanserodriguez29/Foodies.git",
+    link: "https://foodies-project-sp.vercel.app/",
   },
   {
     title: "Image search",
     description:
       "Search for your favorite images of any topic. Built with React and connection with Unsplash API.",
-    link: "https://github.com/juanserodriguez29/Images_search",
+    link: "https://images-search-sp.vercel.app/",
   },
   {
     title: "Monster attack",
     description:
       "Game that simulates a fight between the player and a monster, you can see the records of the attacks on the console. Built with Javascript.",
-    link: "https://github.com/juanserodriguez29/Monster_killer",
+    link: "https://monster-killer-sp.vercel.app/",
   },
   {
     title: "My favorite films",
     description:
       "You will be able to add a title, an image and give a rating to your favorite movies, all in one place. Built with Javascript.",
-    link: "https://github.com/juanserodriguez29/Rating_movies",
+    link: "https://rating-movies-sp.vercel.app/",
   },
 ];
 
@@ -75,7 +75,7 @@ function ProjectText({initialIndex}) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                See more on GitHub
+                See more in the browser
               </a>
             </p>
           </>
