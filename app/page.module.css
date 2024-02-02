@@ -30,10 +30,6 @@
   .about{
     scroll-margin-top: 35px;
   }
-
-  .header h1 {
-    font-family: 'Montserrat', sans-serif;
-  }
   
   .highlight {
     background: linear-gradient(90deg, #f9572a, #ff8a05);
