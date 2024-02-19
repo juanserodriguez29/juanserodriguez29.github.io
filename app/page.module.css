@@ -1,26 +1,9 @@
 .principal {
     color: #ddd6cb;
-    gap: 3rem;
-    margin: 3rem auto 5rem auto;
+    margin: 3rem auto 10rem auto;
     width: 90%;
-    max-width: 75rem;
     font-family: 'Montserrat', sans-serif;
     scroll-margin-top: 112px;
-  }
-
-  @media screen and (max-width: 700px) {
-    .principal{
-      display: inline-block;
-      font-size: 1rem;
-    }
-    .principal h1, .principal h3{
-      margin-left: 20px;
-      text-align: justify;
-    }
-
-    .imgs{
-      margin-left: 15px;
-    }
   }
 
   .projects{
@@ -29,6 +12,7 @@
 
   .about{
     scroll-margin-top: 35px;
+    margin-bottom: 80px;
   }
   
   .highlight {
@@ -44,4 +28,29 @@
 
   .images{
     margin-right:10px;
+  }
+
+  @media screen and (max-width: 700px) {
+    .principal{
+      display: inline-block;
+      font-size: 0.4rem;
+      margin: 1rem 0 0 0;
+    }
+    .principal h1, .principal h3{
+      margin-left: 20px;
+    }
+    .imgs{
+      margin-left: 15px;
+    }
+    .about{
+      margin-bottom: 20px;
+    }
+  }
+
+  @media screen and (max-height: 589px){
+    .principal {
+      margin: 0 auto 0 auto;
+      width: 90%;
+      scroll-margin-top: 112px;
+    }
   }

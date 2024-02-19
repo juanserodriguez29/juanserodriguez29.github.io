@@ -9,7 +9,7 @@ export default function Home() {
       <header id="principal" className={classes.principal}>
         <h1>
           ¡Hello! here you will find the 
-          <span className={classes.highlight}> <Link href="#projects">projects</Link></span> i 
+          <span className={classes.highlight}> <Link href="#projects">projects</Link></span> I 
           have done as a FrontEnd developer and ofcourse,
           <span className={classes.highlight}> <Link href="#about">my contact information</Link></span>.
           <br />
@@ -24,17 +24,9 @@ export default function Home() {
         
           <svg stroke="#f9572a" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="3em" width="3em" xmlns="http://www.w3.org/2000/svg"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M9 15v-6l7.745 10.65a9 9 0 1 1 2.255 -1.993"></path><path d="M15 12v-3"></path></svg>
         </div>
-        <br />
-        <br />
-        <br />
-        <br />
-        <section id="projects" className={classes.projects}><Projects/></section>
-        <section id="about" className={classes.about}><About/></section>
-        <br />
-        <br />
-        <br />
-        <br />
       </header>
+      <section id="about" className={classes.about}><About/></section>
+      <section id="projects" className={classes.projects}><Projects/></section>
     </>
   );
 }
