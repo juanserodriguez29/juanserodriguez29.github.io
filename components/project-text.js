@@ -77,7 +77,7 @@ function ProjectText() {
   return (
     <div >
         {projects.map((projects) => (
-          <div className={classes.proyectos}>
+          <div key={projects.id} className={classes.proyectos}>
             <div className={`${classes.text} ${projects.id % 2 === 0 ? classes.texteven : " "}`}>
               <h1>{projects.title}</h1>
               <p className={classes.principalp}>{projects.description}
