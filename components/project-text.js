@@ -83,7 +83,7 @@ function ProjectText() {
               <p className={classes.principalp}>{projects.description}
                 <div className={`${classes.paths} ${projects.id % 2 === 0 ? classes.pathseven : " "}`}>
                   {projects.paths.map((paths)=>(
-                    <li className={classes.li}>{paths}</li>
+                    <li key={projects.id} className={classes.li}>{paths}</li>
                   ))}
                 </div>
               </p>
