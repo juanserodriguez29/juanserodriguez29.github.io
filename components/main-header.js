@@ -36,10 +36,10 @@ export default function MainHeader() {
         <nav className={classes.nav}>
           <ul>
             <li>
-              <NavLink href="#projects">My Projects</NavLink>
+              <NavLink href="#about">About me</NavLink>
             </li>
             <li>
-              <NavLink href="#about">About me</NavLink>
+              <NavLink href="#projects">My Projects</NavLink>
             </li>
           </ul>
         </nav>

@@ -27,6 +27,8 @@ export default function Home() {
       </header>
       <section id="about" className={classes.about}><About/></section>
       <section id="projects" className={classes.projects}><Projects/></section>
+      <br />
+      <br />
     </>
   );
 }

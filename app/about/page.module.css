@@ -188,30 +188,30 @@
     margin: 0 auto;
   }
   .linkedIn, .gitHub, .instagram{
-    width: 15px;
-    height: 15px;
+    width: 18px;
+    height: 18px;
   }
   .text {
     margin: 0 auto;
     width: 100%;
     margin-left: 20px;
     margin-right: 20px;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
   }
   .socialLinks, .column{
     margin-left: 27px;
   }
   .block {
     position: relative;
-    width: 150px;
-    height: 190px;
+    width: 180px;
+    height: 220px;
   }
   .photo{
-    width: 150px;
-    height: 190px;
+    width: 180px;
+    height: 220px;
   }
   .overlay {
-    width: 150px;
-    height: 190px;
+    width: 180px;
+    height: 220px;
   }
 }
