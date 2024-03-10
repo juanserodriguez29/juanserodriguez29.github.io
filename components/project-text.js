@@ -9,6 +9,7 @@ import monsterGif from "@/assets/img/Monstergif.gif"
 import searchgif from "@/assets/img/searchgif.gif"
 import FoodiesGif from "@/assets/img/FoodiesGif.gif"
 import Ecommercegif from "@/assets/img/Ecommercegif.gif"
+import FormPage from "@/assets/img/FormPage.gif"
 import Image from "next/image";
 import Link from "next/link";
 
@@ -67,6 +68,17 @@ const projects = [
     paths:["JS", "CSS"],
     link: "https://rating-movies-sp.vercel.app/",
     git: "https://github.com/juanserodriguez29/Rating_movies"
+  },
+  {
+    id: 6,
+    title: "Form Page",
+    image: FormPage,
+    gif: FormPage,
+    description:
+      "Here you can add your name, email and favorite topics, then you can see the data in a form",
+    paths:["JS", "CSS"],
+    link: "https://form-page-sp.vercel.app/Page1.html",
+    git: "https://github.com/juanserodriguez29/FormPage"
   },
 ];
 
